@@ -51,6 +51,13 @@ public class UI : MonoBehaviour
         //playerPower.fillAmount = (float)playerObject.min_power / (float)100;
     }
 
+    public void ResetRecord(){
+        maxPlayer.text = "0";
+        maxScore.text = "0";
+        PlayerPrefs.SetInt("score", 0);
+        PlayerPrefs.SetString("name", "블루슬라임");
+    }
+
     // Update is called once per frame
     void Update()
     {
