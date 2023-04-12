@@ -156,6 +156,7 @@ public class Player : MonoBehaviour
             manager.ShakeScreen();
             if(!manager.getShield){
                 health -= manager.level;
+                manager.sm.Play("PlayerDamage");
             }
             else{
                 manager.perfectShield = false;

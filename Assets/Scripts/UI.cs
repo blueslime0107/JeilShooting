@@ -90,6 +90,7 @@ public class UI : MonoBehaviour
         }
         if((int)_min > 1 && diding){
             StartCoroutine("TimeOut");
+            gameManager.sm.Play("TimeOver");
             diding = false;
         }
     }

@@ -241,9 +241,13 @@ public class GameManager : MonoBehaviour
 
     public void OnClickStart()
     {
-        if(playerDied)
+        if(playerDied){
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            
+
+        }
         gameStart = true;
+        sm.Play("BGM");
     }
 
     public void OnClickRestart()

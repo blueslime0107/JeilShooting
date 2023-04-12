@@ -642,14 +642,14 @@ MonoBehaviour:
   sounds:
   - name: BossDam1
     clip: {fileID: 8300000, guid: 61332228783637447abdf2e352bb8360, type: 3}
-    volume: 1
+    volume: 0.4
     group: 0
     loop: 0
     source: {fileID: 0}
     reverb: {fileID: 0}
   - name: BossDam2
     clip: {fileID: 8300000, guid: 8d8e4de20256a8f428b2ba40c1b37b60, type: 3}
-    volume: 1
+    volume: 0.4
     group: 0
     loop: 0
     source: {fileID: 0}
@@ -691,7 +691,7 @@ MonoBehaviour:
     reverb: {fileID: 0}
   - name: PlayerShot
     clip: {fileID: 8300000, guid: 9eddd628f3c397e4f88e524d22f462d4, type: 3}
-    volume: 0.5
+    volume: 0.259
     group: 0
     loop: 0
     source: {fileID: 0}
@@ -705,7 +705,7 @@ MonoBehaviour:
     reverb: {fileID: 0}
   - name: BulletShot
     clip: {fileID: 8300000, guid: e3a51ef90f8f74c42bc8f7d1d7b22b53, type: 3}
-    volume: 0.4
+    volume: 0.3
     group: 0
     loop: 0
     source: {fileID: 0}
@@ -713,6 +713,27 @@ MonoBehaviour:
   - name: TimeOut
     clip: {fileID: 8300000, guid: 6f5c79edb5e100042bc0f9997ce3c7dc, type: 3}
     volume: 0.75
+    group: 0
+    loop: 0
+    source: {fileID: 0}
+    reverb: {fileID: 0}
+  - name: BGM
+    clip: {fileID: 8300000, guid: dcdf96ce5255c804293d9b918665f207, type: 3}
+    volume: 1
+    group: 0
+    loop: 1
+    source: {fileID: 0}
+    reverb: {fileID: 0}
+  - name: TimeOver
+    clip: {fileID: 8300000, guid: 186420357d2a2254aa211f5de07d598d, type: 3}
+    volume: 1
+    group: 0
+    loop: 0
+    source: {fileID: 0}
+    reverb: {fileID: 0}
+  - name: PlayerDamage
+    clip: {fileID: 8300000, guid: bf7487000f5aab64289f78fc318260a5, type: 3}
+    volume: 0.7
     group: 0
     loop: 0
     source: {fileID: 0}
